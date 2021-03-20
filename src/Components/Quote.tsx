@@ -1,6 +1,6 @@
-import React from 'react';
+import { FC } from 'react';
 
-export const Quote: React.FC = ({ children }) => (
+export const Quote: FC = ({ children }) => (
   <blockquote>
     <p>{children}</p>
     <cite>Scott Vogel</cite>
